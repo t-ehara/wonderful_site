@@ -1,0 +1,135 @@
+@charset "UTF-8";
+.main {
+  background: url(img/head_bg.jpg) no-repeat center center;
+  background-size: cover;
+  margin: -20px 0 0;
+  padding: 160px 0 0;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "小塚ゴシック Pro", 游ゴシック, Meiryo, sans-serif;
+}
+
+.maintext {
+  border: 6px solid;
+  border-radius: 20px;
+  padding: 2em 1em;
+  margin: 0 auto 2em;
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  font-size: 16px;
+  background-color: white;
+}
+
+h1 {
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 1;
+  margin: 0;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+.w_code_text {
+  font-size: 22px;
+  line-height: 1.2;
+}
+
+.w_code_5 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.yellow_line {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(60%, transparent), color-stop(60%, #f9ff10));
+  background: linear-gradient(transparent 60%, #f9ff10 60%);
+}
+
+.w_code_link1 {
+  background: #009bcf;
+  display: block;
+  color: white;
+  padding: 1em 1em;
+  max-width: 560px;
+  width: 94%;
+  margin: 1em auto;
+  border-radius: 4px;
+}
+
+.worning {
+  font-size: 0.8em;
+  line-height: 1.8;
+}
+
+.main2 {
+  background-color: black;
+  color: white;
+  padding: 140px 0 3em;
+  position: relative;
+  top: -35px;
+}
+
+.main2_inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.main2_title {
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 26px;
+  font-weight: normal;
+  padding: 0 0 0.2em;
+  margin: 0 0 0.5em;
+}
+
+.header {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.9);
+  z-index: 9999;
+  height: 90px;
+}
+
+.header .header_logo {
+  padding-left: 20px;
+  margin: 30px;
+  display: inline;
+}
+
+.header .flex-container {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: absolute;
+  margin: 30px;
+  width: 70%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: bold;
+}
+
+.header .flex-container .btn-square-shadow {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #67c5ff;
+  border: solid 2px #67c5ff;
+  border-radius: 3px;
+  -webkit-transition: .4s;
+  transition: .4s;
+  position: relative;
+  bottom: 5px;
+}
+
+.header .flex-container .btn-flat-border:hover {
+  background: #67c5ff;
+  color: white;
+}
+/*# sourceMappingURL=wonderful_site.css.map */
